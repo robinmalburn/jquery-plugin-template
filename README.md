@@ -107,8 +107,7 @@ That said, the template also provides a convenient way of calling methods on
 your plugin straight from the jQuery wrapper itself.  For example:
 
 ```javascript
-$("#foo").defaultPluginName("foo"); //Call plugin.foo() through the jQuery
-wrapper.
+$("#foo").defaultPluginName("foo"); //Call plugin.foo() through the jQuery wrapper.
 ```
 
 ## License
