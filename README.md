@@ -84,7 +84,7 @@ Example usage:
 <div id="foo" data-some-value="Some value from the DOM"></div>
 ```
 
-``javascript
+```javascript
 $("#foo").defaultPluginName(); //Will be instantiated with the option 
 "someValue" set to the above text.
 ```
