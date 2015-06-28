@@ -13,6 +13,10 @@
   "authors": [
     "Robin Malburn <robin.malburn@googlemail.com>"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/robinmalburn/jquery-plugin-template.git"
+  },
   "license": "MIT",
   "ignore": [
     "**/.*",
