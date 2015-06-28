@@ -13,15 +13,15 @@ flexibility.
 
 - Include your chosen version of jQuery.
 - Include your plugin script on the page, e.g.
-    ```html
-    <script  src="src/jquery.plugin.template.js"></script>
-    ```
+```html
+<script  src="src/jquery.plugin.template.js"></script>
+```
 - Instantiate your plugin on your desired element(s):
-    ```javascript
-    $("#foo").defaultPluginName(
-        someOption:  'someValue'
-    );
-    ```
+```javascript
+$("#foo").defaultPluginName(
+    someOption:  'someValue'
+);
+```
 
 ## Features
 
