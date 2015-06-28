@@ -85,8 +85,7 @@ Example usage:
 ```
 
 ```javascript
-$("#foo").defaultPluginName(); //Will be instantiated with the option 
-"someValue" set to the above text.
+$("#foo").defaultPluginName(); //Will be instantiated with the option "someValue" set to the above text.
 ```
 
 ### Instances & Plugin methods
