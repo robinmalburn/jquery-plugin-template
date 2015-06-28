@@ -1,0 +1,24 @@
+{
+  "name": "jquery-plugin-template",
+  "version": "1.0.0",
+  "description": "jQuery plugin template to speed up development of jQuery plugins by providing a solid, feature-rich plugin foundation.",
+  "main": "src/jquery.plugin.template.js",
+  "keywords": [
+    "jquery",
+    "jquery-plugin",
+    "template",
+    "plugins",
+    "jquery-template"
+  ],
+  "authors": [
+    "Robin Malburn <robin.malburn@googlemail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

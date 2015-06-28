@@ -1,0 +1,23 @@
+{
+  "name": "jquery-plugin-template",
+  "version": "1.0.0",
+  "description": "jQuery plugin template to speed up development of jQuery plugins by providing a solid, feature-rich plugin foundation.",
+  "scripts": {
+    "test": "grunt test --verbose"
+  },
+  "keywords": [
+    "jquery",
+    "jquery-plugin",
+    "template",
+    "plugins",
+    "jquery-template"
+  ],
+  "author": "Robin Malburn <robin.malburn@googlemail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-jshint": "^0.11.2",
+    "grunt-contrib-qunit": "^0.7.0"
+  }
+}
