@@ -1,13 +1,13 @@
 /*!
  * Copyright (c) 2015 Robin Malburn
  * Released under the MIT license.
- * See the file LICENSCE for copying permission.
- */
+ * See the file LICENSE for copying permission.
+*/
 ;(function(root, factory){
     "use strict";
 
     if (typeof define === "function" && define.amd) {
-        //Register our plugin as an anonymous module, definting jQuery as a
+        //Register our plugin as an anonymous module, defining jQuery as a
         //dependency.
         define(["jquery"], factory);
     } else {
@@ -23,7 +23,7 @@
     //plugin through jQuery, e.g. $("body").defaultPluginName().
     var pluginName = "defaultPluginName";
 
-    //The Plugin object constrcutor.  Initialisation logic should be placed here
+    //The Plugin object construtor.  Initialisation logic should be placed here
     //following the assignment statements.
     var Plugin = function(el, options){
         var self = this;
@@ -51,7 +51,7 @@
     };
 
     //Cache a copy of any existing jQuery plugins with this name to provide
-    //noConflit support.
+    //noConflict support.
     var noConflict = $.fn[pluginName];
 
     //Dictionary of default values to be assigned to the plugin.  This allows globally
