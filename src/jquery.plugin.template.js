@@ -133,12 +133,12 @@
     /**
      * Return or update our default options object to allow global default
      * modification.
-     * @param object newDefaults new default dictionary to set
+     * @param object newDefaults new default dictionary to merge.
      * @return object
      */ 
     $.fn[pluginName].defaults = function(newDefaults){
         if (typeof newDefaults === "object") {
-            defaults = newDefaults;
+            defaults = $.extend(true, {}, defaults, newDefaults);
         }
 
         return defaults;
