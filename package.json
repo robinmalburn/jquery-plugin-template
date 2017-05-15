@@ -22,9 +22,12 @@
   },
   "license": "MIT",
   "devDependencies": {
+    "eslint-config-airbnb-base": "^11.2.0",
+    "eslint-plugin-import": "^2.2.0",
     "grunt": "^0.4.5",
     "grunt-cli": "^0.1.13",
     "grunt-contrib-jshint": "^0.11.2",
-    "grunt-contrib-qunit": "^0.7.0"
+    "grunt-contrib-qunit": "^0.7.0",
+    "grunt-eslint": "^19.0.0"
   }
 }
