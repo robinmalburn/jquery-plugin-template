@@ -10,6 +10,10 @@
         //Register our plugin as an anonymous module, defining jQuery as a
         //dependency.
         define(["jquery"], factory);
+    } else if (typeof module === "object" && module.exports) {
+        //If we're exporting as a node module, just return the factory and let
+        //the consumer execute as required.
+        module.exports = factory;
     } else {
         //AMD is not available, so use the copy of jQuery attached to our
         //current root (Window by default).

@@ -5,16 +5,16 @@
 */
 ;(((root, factory) => { // eslint-disable-line no-extra-semi
   if (typeof define === 'function' && define.amd) {
-    /**
-     * Register our plugin as an anonymous module, defining jQuery as a
-     * dependency.
-     */
+     // Register our plugin as an anonymous module, defining jQuery as a
+     // dependency.
     define(['jquery'], factory);
+  } else if (typeof module === 'object' && module.exports) {
+    // If we're exporting as a node module, just return the factory and let
+    // the consumer execute as required.
+    module.exports = factory;
   } else {
-    /**
-     * AMD is not available, so use the copy of jQuery attached to our
-     * current root (Window by default).
-     */
+     // AMD is not available, so use the copy of jQuery attached to our
+     // current root (Window by default).
     factory(root.jQuery);
   }
 })(window, (jQuery) => {
