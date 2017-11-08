@@ -1,5 +1,5 @@
 /*!
- * Copyright (c) 2015 Robin Malburn
+ * Copyright (c) 2015 - 2017 Robin Malburn
  * Released under the MIT license.
  * See the file LICENSE for copying permission.
 */

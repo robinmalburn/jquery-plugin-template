@@ -1,5 +1,5 @@
 /*!
- * Copyright (c) 2015 Robin Malburn
+ * Copyright (c) 2015 - 2017 Robin Malburn
  * Released under the MIT license.
  * See the file LICENSE for copying permission.
 */
@@ -26,32 +26,35 @@
    */
   const pluginName = 'defaultPluginName';
 
-  /**
-   * The Plugin object construtor.  Initialisation logic should be placed here
-   * following the assignment statements.
-   */
-  const Plugin = function Plugin(el, options) {
-    this.options = options;
-    this.element = el;
-    this.$element = $(el);
+  class Plugin {
+    /**
+    * The Plugin object construtor.  Initialisation logic should be placed here
+    * following the assignment statements.
+    * @return void
+    */
+    constructor(el, options) {
+      this.options = options;
+      this.element = el;
+      this.$element = $(el);
 
-    this.unregisterBindings();
-    this.registerBindings();
-  };
+      this.unregisterBindings();
+      this.registerBindings();
+    }
 
-  /**
-   * Register any relevant event bindings for this Plugin.
-   * @return void
-   */
-  Plugin.prototype.registerBindings = function registerBindings() {
-  };
+    /**
+     * Register any relevant event bindings for this Plugin.
+     * @return void
+     */
+    registerBindings() {
+    }
 
-  /**
-   * Unregister any event bindings bound by the Plugin.
-   * @return void
-   */
-  Plugin.prototype.unregisterBindings = function unregisterBindings() {
-  };
+    /**
+     * Unregister any event bindings bound by the Plugin.
+     * @return void
+     */
+    unregisterBindings() {
+    }
+  }
 
   /**
    * Cache a copy of any existing jQuery plugins with this name to provide
