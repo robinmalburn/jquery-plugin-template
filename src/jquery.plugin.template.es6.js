@@ -1,8 +1,9 @@
 /*!
- * Copyright (c) 2015 - 2017 Robin Malburn
+ * Copyright (c) 2015 - 2021 Robin Malburn
  * Released under the MIT license.
  * See the file LICENSE for copying permission.
 */
+// eslint-disable-next-line no-extra-semi
 ;(((root, factory) => { // eslint-disable-line no-extra-semi
   if (typeof define === 'function' && define.amd) {
      // Register our plugin as an anonymous module, defining jQuery as a
@@ -109,7 +110,7 @@
           defaults,
           instance instanceof Plugin && instance.options,
           data,
-          typeof action === 'object' && action,
+          typeof action === 'object' && action
         );
 
         /**
@@ -160,7 +161,7 @@
         true,
         {},
         defaults,
-        newDefaults,
+        newDefaults
       );
     }
 

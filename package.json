@@ -4,7 +4,7 @@
   "description": "jQuery plugin template to speed up development of jQuery plugins by providing a solid, feature-rich plugin foundation.",
   "scripts": {
     "lint": "grunt",
-    "test": "mocha --compilers js:babel-core/register"
+    "test": "mocha"
   },
   "keywords": [
     "jquery",
@@ -23,17 +23,15 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "babel-core": "^6.26.0",
-    "babel-preset-env": "^1.6.1",
-    "chai": "^4.0.2",
-    "eslint-config-airbnb-base": "^11.2.0",
+    "@babel/core": "^7.14.0",
+    "@babel/preset-env": "^7.14.1",
+    "chai": "^4.3.4",
     "eslint-plugin-import": "^2.2.0",
-    "grunt": "^0.4.5",
-    "grunt-cli": "^0.1.13",
-    "grunt-contrib-jshint": "^0.11.2",
-    "grunt-eslint": "^19.0.0",
-    "jquery": "^1.12.4",
-    "jsdom": "^11.0.0",
-    "mocha": "^3.4.2"
+    "grunt": "^1.4.0",
+    "grunt-cli": "^1.4.2",
+    "grunt-eslint": "^23.0.0",
+    "jquery": "^3.6.0",
+    "jsdom": "^16.5.3",
+    "mocha": "^8.4.0"
   }
 }

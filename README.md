@@ -37,7 +37,9 @@ The code follows jQuery's style guide for plugins.
 
 The ES6 version of the plugin can be found in `src/jquery.plugin.template.es6.js`.  This version, as stated above, is written to take advantage of features in ES6 and beyond.  This is a big quality of life improvement for writing javascript, but please make sure you run your plugin through a transpiler such as babel before attempting to use the code in the browser.
 
-This code follows a very slightly modified version of the airbnb style guide, which is more up to date with the ES6 langauge constructs and patterns.  The package includes a configured `.eslintrc.json` used to lint the template itself, but also useful as a base to lint your own plugins using eslint.
+This code follows the eslint:recommended style guide, which is more up to date with the ES6 langauge constructs and patterns.  The package includes a configured `.eslintrc.json` used to lint the template itself, but also useful as a base to lint your own plugins using eslint.
+
+The packge also contains a bare bone .babelrc with preset-env - it assumes you'll be targeting the default envs, but you can update the configuration in the .babelrc to match your actual requirments.
 
 ## Features
 

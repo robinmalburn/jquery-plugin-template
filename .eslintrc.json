@@ -5,15 +5,9 @@
         "jquery": true,
         "es6": true
     },
-    "extends": "airbnb-base",
-    "rules": {
-        "class-methods-use-this" : "warn",
-        "id-length":  [
-            2,
-            {
-                "min": 2,
-                "properties": "never"
-            }
-        ]
-    }
+    "globals": {
+        "module": "readonly",
+        "window": "readonly"
+    },
+    "extends": "eslint:recommended"
 }

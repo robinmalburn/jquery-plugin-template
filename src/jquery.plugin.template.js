@@ -1,8 +1,9 @@
 /*!
- * Copyright (c) 2015 - 2017 Robin Malburn
+ * Copyright (c) 2015 - 2021 Robin Malburn
  * Released under the MIT license.
  * See the file LICENSE for copying permission.
 */
+// eslint-disable-next-line no-extra-semi
 ;(function(root, factory){
     "use strict";
 
