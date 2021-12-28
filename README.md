@@ -1,5 +1,7 @@
 # jQuery Plugin Template
 
+![Tests](https://github.com/robinmalburn/jquery-plugin-template/actions/workflows/tests.yml/badge.svg?branch=master&event=push)
+
 This template provides a solid base to begin building your own jQuery plugins
 whilst offering many useful features with little to no additional configuration
 required.
@@ -18,9 +20,9 @@ flexibility.
 ```
 - Instantiate your plugin on your desired element(s):
 ```javascript
-$("#foo").defaultPluginName(
+$("#foo").defaultPluginName({
     someOption:  'someValue'
-);
+});
 ```
 
 ## Versions
