@@ -25,30 +25,11 @@ $("#foo").defaultPluginName({
 });
 ```
 
-## Versions
-
-This template is provided in two flavours - vanilla and ES6.  Both are identical as regards feature set and configuration, but the ES6 version is written to a more modern standard, leveraging ES6 and beyond features to make the process of writing javascript a more pleasant experience.  Read on for a more detailed explanation of the differences, but the short of it is:  If you want to write modern javascript, use the ES6 version, but remember you'll need to run your code through a transpiler like babel to use the resulting plugin in most browsers and be confidence of cross browser compatibility.
-
-### Vanilla Version
-
-The vanilla, original version of the plugin can be found in `src/jquery.plugin.template.js`.  This version is written in plain javascript that should be supported by any modern browser released in the last few years without the need for a transpiler.
-
-The code follows jQuery's style guide for plugins.
-
-### ES6 Version
-
-The ES6 version of the plugin can be found in `src/jquery.plugin.template.es6.js`.  This version, as stated above, is written to take advantage of features in ES6 and beyond.  This is a big quality of life improvement for writing javascript, but please make sure you run your plugin through a transpiler such as babel before attempting to use the code in the browser.
-
-This code follows the eslint:recommended style guide, which is more up to date with the ES6 langauge constructs and patterns.  The package includes a configured `.eslintrc.json` used to lint the template itself, but also useful as a base to lint your own plugins using eslint.
-
-The packge also contains a bare bone .babelrc with preset-env - it assumes you'll be targeting the default envs, but you can update the configuration in the .babelrc to match your actual requirments.
-
 ## Features
 
 ### AMD
 
-Out of the box this template will work with AMD-style module loaders such as
-require.js.
+Out of the box this template will work with AMD-style module loaders such as require.js.
 
 ### No Conflict
 
