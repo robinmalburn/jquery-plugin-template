@@ -1,6 +1,6 @@
 {
   "name": "jquery-plugin-template",
-  "version": "4.0.2",
+  "version": "5.0.1",
   "description": "jQuery plugin template to speed up development of jQuery plugins by providing a solid, feature-rich plugin foundation.",
   "scripts": {
     "lint": "grunt",
