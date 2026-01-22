@@ -30,7 +30,7 @@
     "grunt": "^1.6.1",
     "grunt-cli": "^1.5.0",
     "grunt-eslint": "^26.0.0",
-    "jquery": "^3.7.1",
+    "jquery": "^4.0.0",
     "jsdom": "^27.4.0",
     "mocha": "^11.7.5"
   },
