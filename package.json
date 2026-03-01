@@ -25,9 +25,9 @@
   "devDependencies": {
     "@babel/core": "^7.29.0",
     "@babel/preset-env": "^7.29.0",
-    "@eslint/js": "^9.39.2",
+    "@eslint/js": "^9.39.3",
     "chai": "^6.2.2",
-    "eslint": "^9.39.2",
+    "eslint": "^9.39.3",
     "eslint-plugin-import": "^2.32.0",
     "grunt": "^1.6.1",
     "grunt-cli": "^1.5.0",
@@ -36,5 +36,5 @@
     "jsdom": "^28.1.0",
     "mocha": "^11.7.5"
   },
-  "packageManager": "pnpm@10.30.0+sha512.2b5753de015d480eeb88f5b5b61e0051f05b4301808a82ec8b840c9d2adf7748eb352c83f5c1593ca703ff1017295bc3fdd3119abb9686efc96b9fcb18200937"
+  "packageManager": "pnpm@10.30.3+sha512.c961d1e0a2d8e354ecaa5166b822516668b7f44cb5bd95122d590dd81922f606f5473b6d23ec4a5be05e7fcd18e8488d47d978bbe981872f1145d06e9a740017"
 }
