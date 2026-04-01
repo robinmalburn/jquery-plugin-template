@@ -1,3 +1,5 @@
+minimumReleaseAge: 1
+
 overrides:
   diff@>=6.0.0 <8.0.3: ">=8.0.3"
   minimatch@<3.1.3: '>=3.1.3'
