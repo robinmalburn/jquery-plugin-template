@@ -25,18 +25,18 @@
   "devDependencies": {
     "@babel/core": "^8.0.1",
     "@babel/preset-env": "^8.0.2",
-    "@eslint/js": "^9.39.4",
+    "@eslint/js": "^9.39.5",
     "chai": "^6.2.2",
-    "eslint": "^9.39.4",
+    "eslint": "^9.39.5",
     "eslint-plugin-import": "^2.32.0",
-    "grunt": "^1.6.2",
+    "grunt": "^1.6.3",
     "grunt-cli": "^1.5.0",
     "grunt-eslint": "^26.0.0",
     "jquery": "^4.0.0",
     "jsdom": "^29.1.1",
-    "mocha": "^11.7.6"
+    "mocha": "^11.8.0"
   },
-  "packageManager": "pnpm@11.9.0",
+  "packageManager": "pnpm@11.20.0",
   "devEngines": {
     "runtime": {
       "name": "node",
@@ -48,7 +48,7 @@
   "engines": {
     "runtime": {
       "name": "node",
-      "version": "^24.18.0",
+      "version": "^24.19.0",
       "onFail": "download"
     }
   }
