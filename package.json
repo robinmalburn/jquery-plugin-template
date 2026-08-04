@@ -33,7 +33,7 @@
     "grunt-cli": "^1.5.0",
     "grunt-eslint": "^26.0.0",
     "jquery": "^4.0.0",
-    "jsdom": "^29.1.1",
+    "jsdom": "^30.0.1",
     "mocha": "^11.8.0"
   },
   "packageManager": "pnpm@11.20.0",
