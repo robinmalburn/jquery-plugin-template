@@ -31,12 +31,12 @@
     "eslint-plugin-import": "^2.32.0",
     "grunt": "^1.6.3",
     "grunt-cli": "^1.5.0",
-    "grunt-eslint": "^26.0.0",
+    "grunt-eslint": "^27.0.0",
     "jquery": "^4.0.0",
-    "jsdom": "^29.1.1",
-    "mocha": "^11.8.0"
+    "jsdom": "^30.0.1",
+    "mocha": "^12.0.0"
   },
-  "packageManager": "pnpm@11.20.0",
+  "packageManager": "pnpm@11.25.0",
   "devEngines": {
     "runtime": {
       "name": "node",
@@ -48,7 +48,7 @@
   "engines": {
     "runtime": {
       "name": "node",
-      "version": "^24.19.0",
+      "version": "^24.20.0",
       "onFail": "download"
     }
   }
