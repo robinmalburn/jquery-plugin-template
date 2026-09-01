@@ -31,7 +31,7 @@
     "eslint-plugin-import": "^2.32.0",
     "grunt": "^1.6.3",
     "grunt-cli": "^1.5.0",
-    "grunt-eslint": "^26.0.0",
+    "grunt-eslint": "^27.0.0",
     "jquery": "^4.0.0",
     "jsdom": "^29.1.1",
     "mocha": "^11.8.0"
