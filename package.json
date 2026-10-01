@@ -23,8 +23,8 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "@babel/core": "^8.0.1",
-    "@babel/preset-env": "^8.0.2",
+    "@babel/core": "^8.0.6",
+    "@babel/preset-env": "^8.0.6",
     "@eslint/js": "^9.39.5",
     "chai": "^6.2.2",
     "eslint": "^9.39.5",
@@ -33,10 +33,10 @@
     "grunt-cli": "^1.5.0",
     "grunt-eslint": "^27.0.0",
     "jquery": "^4.0.0",
-    "jsdom": "^30.0.1",
-    "mocha": "^12.0.0"
+    "jsdom": "^30.1.1",
+    "mocha": "^12.0.2"
   },
-  "packageManager": "pnpm@11.25.0",
+  "packageManager": "pnpm@12.8.1",
   "devEngines": {
     "runtime": {
       "name": "node",
@@ -48,7 +48,7 @@
   "engines": {
     "runtime": {
       "name": "node",
-      "version": "^24.20.0",
+      "version": "^24.21.0",
       "onFail": "download"
     }
   }
