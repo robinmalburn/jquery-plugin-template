@@ -28,7 +28,6 @@
     "@eslint/js": "^9.39.5",
     "chai": "^6.2.2",
     "eslint": "^9.39.5",
-    "eslint-plugin-import": "^2.32.0",
     "grunt": "^1.6.3",
     "grunt-cli": "^1.5.0",
     "grunt-eslint": "^27.0.0",
