@@ -1,0 +1,4 @@
+{
+  "require": ["./test/setup.mjs"],
+  "spec": ["test/test.*.mjs"]
+}

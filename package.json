@@ -1,10 +1,12 @@
 {
   "name": "jquery-plugin-template",
-  "version": "5.0.3",
+  "version": "5.2.-",
   "description": "jQuery plugin template to speed up development of jQuery plugins by providing a solid, feature-rich plugin foundation.",
   "scripts": {
-    "lint": "grunt",
-    "test": "mocha"
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "test": "mocha",
+    "check": "pnpm run lint && pnpm run test"
   },
   "keywords": [
     "jquery",
@@ -23,14 +25,9 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "@babel/core": "^8.0.10",
-    "@babel/preset-env": "^8.0.7",
     "@eslint/js": "^10.0.1",
     "chai": "^6.3.0",
     "eslint": "^10.14.0",
-    "grunt": "^1.6.3",
-    "grunt-cli": "^1.5.0",
-    "grunt-eslint": "^27.0.0",
     "jquery": "^4.0.0",
     "jsdom": "^30.1.3",
     "mocha": "^12.0.3"
@@ -39,16 +36,11 @@
   "devEngines": {
     "runtime": {
       "name": "node",
-      "version": "^24.16.0",
-      "onFail": "download"
-    }
-  },
-  "dependencies": {},
-  "engines": {
-    "runtime": {
-      "name": "node",
       "version": "^24.22.2",
       "onFail": "download"
     }
+  },
+  "engines": {
+    "node": "^24.16.0"
   }
 }

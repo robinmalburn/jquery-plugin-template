@@ -1,7 +1,9 @@
-import jsdom from "jsdom";
+import { JSDOM } from "jsdom";
 
-global.document = new jsdom.JSDOM(
+const { window } = new JSDOM(
   '<!doctype html><html><body><div id="fixture"></div></body></html>'
 );
-global.window = document.window;
-global.HTMLElement = global.window.HTMLElement;
+
+global.window = window;
+global.document = window.document;
+global.HTMLElement = window.HTMLElement;

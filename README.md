@@ -110,6 +110,23 @@ your plugin straight from the jQuery wrapper itself.  For example:
 $("#foo").defaultPluginName("foo"); //Call plugin.foo() through the jQuery wrapper.
 ```
 
+## Development
+
+Use Node.js 24 (24.16.0 or newer) and the pnpm version pinned in
+`package.json`. pnpm provisions a compatible Node.js runtime for project
+commands when needed.
+
+Install dependencies with `pnpm install --frozen-lockfile`, then run:
+
+- `pnpm run lint` to check source, tests, and JavaScript configuration.
+- `pnpm run lint:fix` to apply available ESLint fixes.
+- `pnpm run test` to run the Mocha suite with jsdom.
+- `pnpm run check` to run linting and tests together, as CI does.
+
+ESLint rules are configured in `eslint.config.mjs`. Test setup and discovery
+are configured in `.mocharc.json`; add tests as `test/test.*.mjs` files.
+The plugin source is used directly, so no build step is required.
+
 ## License
 
 Released under [MIT license](https://github.com/robinmalburn/jquery-plugin-template/blob/master/LICENSE).
